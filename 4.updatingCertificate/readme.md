@@ -15,7 +15,7 @@ src :-> [https://blog.bigdinosaur.org/openfire-and-ssl-slash-tls-certificates/]
 	```
 	openssl x509 -in /home/ubuntu/openFireNew/sslbigMem/certification.crt -inform PEM -out ./cert.der -outform DER
 	```
-### b). private.pem or private.crt to => key.der
+### b). private.pem(non-rsa one) or private.crt to => key.der
 
 	 ```
 	 openssl pkcs8 -topk8 -nocrypt -in /home/ubuntu/openFireNew/sslbigMem/private.pem -inform PEM -out ./key.der -outform DER

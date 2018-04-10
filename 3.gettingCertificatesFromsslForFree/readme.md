@@ -21,3 +21,9 @@ sudo ln -s /home/ubuntu/openFireNew/.well-known/ /var/www/html
   * private.key
   * certification.crt
   * ca_bundle.crt 
+
+## d) Converting the primary.key to rsa key
+
+```bash
+   openssl rsa -in /Users/zakirsaifi/Downloads/private.key -out /Users/zakirsaifi/Downloads/privateNoPass.key
+```

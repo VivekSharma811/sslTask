@@ -1,0 +1,47 @@
+openssl rsa -in /Users/zakirsaifi/Downloads/private.key -out /Users/zakirsaifi/Downloads/privateNoPass.key
+
+sudo gdebi openfire_4.2.2_all.deb
+sudo gdebi openfire_4.2.3_all.deb
+
+
+//remove
+sudo /etc/init.d/openfire stop
+sudo apt-get autoremove openfire && sudo apt-get purge openfire -y 
+
+
+
+
+wget https://www.apachefriends.org/xampp-files/7.2.3/xampp-linux-x64-7.2.3-0-installer.run
+
+
+chmod +x xampp-linux-x64-7.2.3-0-installer.run
+
+ ./xampp-linux-x64-7.2.3-0-installer.run
+
+ ip-10-0-3-144.ap-southeast-1.compute.internal
+
+
+ //
+ 
+ CREATE DATABASE IF NOT EXISTS openfire;
+
+jdbc:mysql://localhost:3306/openfire?rewriteBatchedStatements=true
+from Terminal type this command 
+mysql -u root -p openfire < /home/ubuntu/openFireNew/openfire.sql
+
+ mysql -u root -p
+ CREATE DATABASE openfire;
+ checking database
+ show databases;
+ use openfire;
+ show tables;
+
+ jdbc:mysql://bigmem.raxa.ninja/:3306/openfire?rewriteBatchedStatements=true
+
+
+
+ ip-10-0-3-144.ap-southeast-1.compute.internal
+
+ zak.saifi7@gmail.com
+ 6123906zak
+
