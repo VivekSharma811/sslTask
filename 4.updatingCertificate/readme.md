@@ -1,5 +1,5 @@
 src :-> [https://blog.bigdinosaur.org/openfire-and-ssl-slash-tls-certificates/]
-# 2. Updating Certificates on Openfire
+# 4. Updating Certificates on Openfire
 1. Run the following commands
 
 ```bash

@@ -14,7 +14,6 @@ sudo gdebi openfire_4.2.3_all.deb
  
   _Change the version in to latest of xamp server available and *mysql should be installed on it*
 
-## c. Start
 
 ## c. Configuring the mysql and importing the database
    ## 1) Importing Data to mysql server
@@ -26,12 +25,12 @@ mysql -u root -p
 ```bash
   CREATE DATABASE openfire;
 ```
-### iii) Exit mysql and after pasting the openfire.sql file into the directory run
+### iii) Exit mysql and after pasting the openfire.sql(from resources) file into the directory run
 
 ```bash 
 mysql -u root -p openfire < /home/ubuntu/openFireNew/openfire.sql
 ```
-### iii) Check database
+### iii) Checking database
 ```
 show databases;
 use openfire;

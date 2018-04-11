@@ -1,10 +1,10 @@
-# 3. :smile: Getting certificates from ssl for free
+# 3. Getting certificates from ssl for free
 
 ## a) Obtaining certificates
-   * go to sslforfree
-   * select manual obtaining of certificates
-   * Now in your folder create a folder name .well-known
-   * Create another folder name acme-challenge
+   * Go to sslforfree.com
+   * Select manual obtaining of certificates
+   * Now in your folder create a folder name '.well-known'
+   * Create another folder name 'acme-challenge'
    * Paste the downloaded file from sslforfree in acme-challenge
 
 ## b) Creating the Simulink
