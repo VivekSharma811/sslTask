@@ -1,0 +1,13 @@
+keytool -import -keystore truststore -alias chat.raxa.io  -file /home/ubuntu/openFireNew/root.pem
+
+keytool -import -keystore truststore -alias chat.raxa.io  -file /home/ubuntu/openfireNew/root.pem
+
+
+	keytool -delete -keystore keystore -alias 
+
+
+	java KeyStoreImport keystore /etc/ssl/chaincert.der /etc/ssl/private/key.der "chat.raxa.io_rsa"
+
+	keytool -import -keystore truststore -alias user_name -file certificate_file
+
+	keytool -import -keystore keystore -alias example.com -file signed_certificate_file

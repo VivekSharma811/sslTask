@@ -37,3 +37,11 @@ use openfire;
 show tables; 
 ```
 
+
+```bash
+
+```
+
+
+sudo /etc/init.d/openfire stop
+sudo apt-get autoremove openfire && sudo apt-get purge openfire -y 
